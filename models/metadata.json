@@ -1,0 +1,100 @@
+{
+  "best_model_name": "Logistic Regression",
+  "selection_metric": "F1 Score",
+  "model_comparison": {
+    "Logistic Regression": {
+      "accuracy": 0.7438,
+      "precision": 0.7429,
+      "recall": 0.9541,
+      "f1_score": 0.8353
+    },
+    "Decision Tree": {
+      "accuracy": 0.7188,
+      "precision": 0.75,
+      "recall": 0.8807,
+      "f1_score": 0.8101
+    },
+    "Random Forest": {
+      "accuracy": 0.6937,
+      "precision": 0.7055,
+      "recall": 0.945,
+      "f1_score": 0.8078
+    },
+    "K-Nearest Neighbors": {
+      "accuracy": 0.6875,
+      "precision": 0.7287,
+      "recall": 0.8624,
+      "f1_score": 0.7899
+    }
+  },
+  "confusion_matrix": {
+    "tp": 104,
+    "tn": 15,
+    "fp": 36,
+    "fn": 5
+  },
+  "feature_importance": [
+    [
+      "CGPA",
+      0.1449
+    ],
+    [
+      "Technical_Interview_Score",
+      0.1129
+    ],
+    [
+      "Attendance_Percentage",
+      0.0908
+    ],
+    [
+      "Coding_Score",
+      0.0869
+    ],
+    [
+      "Aptitude_Score",
+      0.0859
+    ],
+    [
+      "Communication_Score",
+      0.0854
+    ],
+    [
+      "10th_Percentage",
+      0.0819
+    ],
+    [
+      "12th_Percentage",
+      0.08
+    ],
+    [
+      "Soft_Skills_Score",
+      0.0729
+    ],
+    [
+      "Backlogs",
+      0.0495
+    ],
+    [
+      "Internships",
+      0.0418
+    ],
+    [
+      "Projects",
+      0.0376
+    ],
+    [
+      "Certifications",
+      0.0294
+    ]
+  ],
+  "dataset_summary": {
+    "total_records": 800,
+    "placed_count": 545,
+    "not_placed_count": 255,
+    "cleaning_report": {
+      "missing_values_found": 0,
+      "duplicate_rows_found": 0,
+      "final_row_count": 800
+    }
+  }
+}

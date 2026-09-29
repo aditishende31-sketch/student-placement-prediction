@@ -1,0 +1,12 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+joblib>=1.3
+
+# Tkinter and SQLite are part of Python's standard library and do not
+# need to be installed via pip. On Windows they are included with the
+# standard python.org installer. On some Linux distributions you may
+# need to install tkinter separately, e.g.:
+#     sudo apt-get install python3-tk
