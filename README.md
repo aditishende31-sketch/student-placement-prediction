@@ -246,6 +246,6 @@ seconds. On every later run, it loads the saved model directly.
 
 ## Author
 
-*[Your Name Here]*
-*[Your Roll Number / Class Here]*
-*[Your College Name Here]*
+Aditi Shende
+T.E. CSE (AI & ML)
+Saraswati College of Engineering
