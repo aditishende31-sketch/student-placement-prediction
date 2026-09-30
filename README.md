@@ -244,6 +244,17 @@ seconds. On every later run, it loads the saved model directly.
 - Hyperparameter tuning (GridSearchCV) for better model performance
 - Larger, more diverse dataset across multiple academic years
 
+## Application Screenshots
+
+### Dashboard
+![Dashboard](visualizations/dashboard.png)
+
+### Prediction Form
+![Prediction Form](visualizations/prediction_form.png)
+
+### Prediction Result
+![Prediction Result](visualizations/prediction_result.png)
+
 ## Author
 
 Aditi Shende
